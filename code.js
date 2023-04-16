@@ -11,6 +11,7 @@ function countDown() {
             setTimeout(function () {
                 //timer functionality, console logs message on complete//
                 document.getElementById("countdownTimer").innerHTML = "Success!!!";
+                location.replace("RPS.html");
             }, 1000 * i);
             // function that logs message on else if condition, in this case when i is greater than 6, 4 seconds remaining//
             //Use else if to specify a new condition to test, if the first condition is false//
